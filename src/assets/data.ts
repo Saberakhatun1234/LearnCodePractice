@@ -1,21 +1,25 @@
-import { ChevronDown } from 'lucide-react'
+import { ChevronDown } from "lucide-react"
 export const navitem=([
     {
         title:"Homepage",
-        url:"/"
+        url:"/",
+       icon:ChevronDown
     },
     {
         title:"About",
-        url:"/about"
+        url:"/About",
+       icons:ChevronDown
     },
     {
         title:"Service",
-        url:"/service",
-        icon:ChevronDown
+        url:"/Service",
+         icon:ChevronDown
+      
     },
     {
         title:"Pages",
-        url:"/pages",
+        url:"/Pages",
          icon:ChevronDown
+         
     }
 ])
